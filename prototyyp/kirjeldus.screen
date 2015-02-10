@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="168" y="112" width="961" height="713" text="Browser&#xA;http://..." measuredWidth="961" measuredHeight="713"/>
+  <widgets xsi:type="model:HLine" id="2" x="403" y="304" width="380" measuredWidth="380" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="3" x="456" y="192" width="348" text="Header" measuredWidth="348" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="4" x="408" y="272" text="Search" measuredWidth="66" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="456" y="688" width="348" text="Footer" measuredWidth="348" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="6" x="403" y="304" height="313" measuredWidth="6" measuredHeight="313"/>
+  <widgets xsi:type="model:Image" id="7" x="432" y="330" width="89" height="81" measuredWidth="89" measuredHeight="81"/>
+  <widgets xsi:type="model:VScrollbar" id="14" x="766" y="309" height="308" measuredWidth="17" measuredHeight="308"/>
+  <widgets xsi:type="model:HLine" id="15" x="408" y="616" width="380" measuredWidth="380" measuredHeight="6"/>
+  <widgets xsi:type="model:List" id="31" x="803" y="336" text="[x] president&#xA;[ ] KOV&#xA;~[ ] Riigikogu~&#xA;" measuredWidth="80" measuredHeight="70" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="80" height="22" text="[x] president"/>
+    <items x="0" y="24" width="80" height="22" text="[ ] KOV"/>
+    <items x="0" y="46" width="80" height="22" text="~[ ] Riigikogu~"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="803" y="304" width="143" text="Sorteerimise viisid" measuredWidth="143" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="432" y="432" width="81" text="Kirjeldus" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="34" x="432" y="472" width="297" height="120" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="297" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="544" y="330" text="Nimi" measuredWidth="32" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="544" y="368" text="Kontakt" measuredWidth="47" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="976" y="192" text="Logi sisse" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

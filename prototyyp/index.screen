@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="168" y="112" width="961" height="713" text="Browser&#xA;http://..." measuredWidth="961" measuredHeight="713"/>
+  <widgets xsi:type="model:HLine" id="2" x="403" y="304" width="380" measuredWidth="380" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="3" x="456" y="192" width="348" text="Header" measuredWidth="348" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="4" x="408" y="272" text="Search" measuredWidth="66" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="456" y="688" width="348" text="Footer" measuredWidth="348" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="6" x="403" y="304" height="313" measuredWidth="6" measuredHeight="313"/>
+  <widgets xsi:type="model:Image" id="7" x="432" y="369" width="89" height="81" measuredWidth="89" measuredHeight="81"/>
+  <widgets xsi:type="model:Image" id="8" x="520" y="369" width="25" height="25" measuredWidth="25" measuredHeight="25"/>
+  <widgets xsi:type="model:Image" id="9" x="520" y="397" width="25" height="25" measuredWidth="25" measuredHeight="25"/>
+  <widgets xsi:type="model:Image" id="10" x="520" y="425" width="25" height="25" measuredWidth="25" measuredHeight="25"/>
+  <widgets xsi:type="model:TextField" id="14" x="552" y="370" width="89" text="Nimi1" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="552" y="398" width="89" text="Nimi2" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="552" y="426" width="89" text="Nimi3" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="17" x="766" y="309" height="308" measuredWidth="17" measuredHeight="308"/>
+  <widgets xsi:type="model:HLine" id="18" x="408" y="616" width="380" measuredWidth="380" measuredHeight="6"/>
+  <widgets xsi:type="model:Image" id="19" x="432" y="492" width="89" height="81" measuredWidth="89" measuredHeight="81"/>
+  <widgets xsi:type="model:Image" id="20" x="520" y="492" width="25" height="25" measuredWidth="25" measuredHeight="25"/>
+  <widgets xsi:type="model:Image" id="21" x="520" y="520" width="25" height="25" measuredWidth="25" measuredHeight="25"/>
+  <widgets xsi:type="model:Image" id="22" x="520" y="548" width="25" height="25" measuredWidth="25" measuredHeight="25"/>
+  <widgets xsi:type="model:TextField" id="23" x="552" y="493" width="89" text="Nimi1" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="24" x="552" y="521" width="89" text="Nimi1" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="25" x="552" y="549" width="89" text="Nimi1" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="26" x="432" y="344" width="89" text="Soovitaja nimi" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="27" x="432" y="464" width="89" text="Soovitaja nimi" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="28" x="656" y="398" width="24" height="23" measuredWidth="24" measuredHeight="23" icon="thumbs-up (large)"/>
+  <widgets xsi:type="model:TextField" id="29" x="687" y="398" text="Likeide arv" measuredWidth="67" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="30" x="656" y="521" width="24" height="23" measuredWidth="24" measuredHeight="23" icon="thumbs-up (large)"/>
+  <widgets xsi:type="model:TextField" id="31" x="687" y="521" text="Likeide arv" measuredWidth="67" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="976" y="192" text="Logi sisse" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="803" y="304" width="143" text="Sorteerimise viisid" measuredWidth="143" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="34" x="803" y="336" text="[x] president&#xA;[ ] KOV&#xA;~[ ] Riigikogu~&#xA;" measuredWidth="80" measuredHeight="70" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="80" height="22" text="[x] president"/>
+    <items x="0" y="24" width="80" height="22" text="[ ] KOV"/>
+    <items x="0" y="46" width="80" height="22" text="~[ ] Riigikogu~"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

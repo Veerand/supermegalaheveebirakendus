@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="168" y="112" width="961" height="713" text="Browser&#xA;http://..." measuredWidth="961" measuredHeight="713"/>
+  <widgets xsi:type="model:Label" id="3" x="456" y="192" width="348" text="Header" measuredWidth="348" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="456" y="688" width="348" text="Footer" measuredWidth="348" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="920" y="192" text="Kasutaja Nimi" measuredWidth="79" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="1008" y="192" text="Logi v2lja" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="33" x="448" y="408" width="253" text="Kutse saaja emaili aadress" measuredWidth="253" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="34" x="448" y="344" text="Saada oma lemmikule kutse" measuredWidth="253" measuredHeight="33">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="35" x="552" y="472" text="OK" measuredWidth="36" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
