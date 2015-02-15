@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>POLIITILINE SOOVITUSLEHT</title>
+    <title>Poliitiline Soovitusleht</title>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <style type="text/css">
     @import "vaikestiil.css";
@@ -12,7 +12,7 @@
 <body>
     
 <div id = "pealdis"> 
-<h1><font size=30> Poliitkompass </font></h1>
+<h1><font size=30> POLIITILINE SOOVITUSLEHT </font></h1>
 </div>
 
 
