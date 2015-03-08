@@ -5,7 +5,7 @@
 Otsing:   <br>
 [Tulekul!]<p>
 <a href="index.php">PEALEHT</a> <br>
-<a href="soovitajad.php">SOOVITAJAD </a> <br>
+SOOVITAJAD  <br>
 SOOVITA     <br>
 SAADA KUTSE <br>
 </p>
