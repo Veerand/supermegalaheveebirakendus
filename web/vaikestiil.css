@@ -1,0 +1,23 @@
+                                                                   
+body{
+}
+
+#pealdis{
+  text-align:center;
+}
+
+#kylgriba{
+  float: left;
+  padding-right: 15px;
+}
+
+#sisu{
+  width: 70%;
+  float: left;
+}
+
+#jalus{
+  clear: left;
+  text-align:center;
+  float: bottom;
+}        
