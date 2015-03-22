@@ -28,6 +28,14 @@ CREATE TABLE IF NOT EXISTS SOOVITUSLEHT.`SOOVITUS` (
   UNIQUE INDEX `ID_UNIQUE` (`ID` ASC))
 ENGINE = InnoDB;
 
+CREATE TABLE SOOVITUSLEHT.`KASUTAJAD` (
+`ID` int(4) NOT NULL auto_increment,
+`Kasutajanimi` varchar(65) NOT NULL default '',
+`Salasona` varchar(65) NOT NULL default '',
+PRIMARY KEY (`ID`)
+) 
+INSERT INTO SOOVITUSLEHT.`KASUTAJAD`  (`ID`, `Kasutajanimi`, `Salasona`) VALUES (1, 'Kasutaja', 'password1');
+
 
 INSERT INTO SOOVITUSLEHT.`POLIITIK` (`ID`, `Eesinimi`, `Perekonnanimi`, `Partei`, `Kandidaat`, `Kirjeldus`) VALUES (1, 'Siim', 'Neljandik', 'Lahedad inimesed', 1, 'Ma olen nii lahe');
 INSERT INTO SOOVITUSLEHT.`POLIITIK` (`ID`, `Eesinimi`, `Perekonnanimi`, `Partei`, `Kandidaat`, `Kirjeldus`) VALUES (2, 'Ain', 'Lambi', 'Suvalised mehed', 5, 'Ma olen suvaline mees');

@@ -12,14 +12,18 @@
 </button> <br>
 
 <div id="autendi" style="display:none">
-<form action="auth.php">
+<form method="post" action="auth.php">
 	Kasutajanimi: 
-	<input class="sisenemiskast" 
+	<input 
+		   name="kasutajanimi"
+		   class="sisenemiskast" 
 		   type="text" 
 	></input>
 	<br>
 	Salasõna: 
-	<input class="sisenemiskast" 
+	<input 
+		   name="salasona"
+		   class="sisenemiskast" 
 		   type="password" 
 	></input>
 	<br>
