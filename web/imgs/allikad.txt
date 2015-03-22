@@ -1,0 +1,9 @@
+search.png: 
+	allikas:          www.softicons.com
+	alla laaditud:    http://www.softicons.com/web-icons/stock-web-icons-by-snap2objects/search-icon
+	Icon set: 	      Stock Web Icons
+	Author:           snap2objects
+	License: 	      CC Attribution 3.0 Unported
+	License readme:   http://files.softicons.com/download/web-icons/stock-web-icons-by-snap2objects/license_info.txt
+	Commercial usage: Allowed
+	Posted: 	      December 17, 2010

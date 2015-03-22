@@ -6,7 +6,7 @@
 <?php require("sidebar.php"); ?>
 
 <div id = "sisu">
-Soovitajad tulevad siia.
+Kutse saatmise blankett tuleb siia.
 </div>
 
 <?php require("fin.php"); ?>     

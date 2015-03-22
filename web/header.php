@@ -9,11 +9,12 @@
     </style>
 </head>
 
-<body>
-    
-<div id = "pealdis"> 
-<h1><font size=30> POLIITILINE SOOVITUSLEHT </font></h1>
-</div>
+<?php require("meldi.php"); ?> 
 
+<body>
+
+<div id = "pealdis"> 
+<h1><font size=30> POLIITILINE SOOVITUSLEHT </font></h1>    
+</div>
 
 </html>

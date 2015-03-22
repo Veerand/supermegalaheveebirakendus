@@ -6,7 +6,7 @@
 <?php require("sidebar.php"); ?>
 
 <div id = "sisu">
-Soovitajad tulevad siia.
+Oled nüüd sisse logitud?
 </div>
 
 <?php require("fin.php"); ?>     
