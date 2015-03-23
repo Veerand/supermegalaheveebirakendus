@@ -6,7 +6,7 @@
 
 <form action="otsing.php">
     <p title="Otsimiseks sisesta tekst allolevasse kasti.">
-		Otsing: <br>
+		<b>Otsing:</b><br>
         <input class="otsikast" 
 			   type="text" 
 			   name="otsitav"

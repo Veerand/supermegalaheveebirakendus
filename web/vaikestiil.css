@@ -2,13 +2,17 @@
 body{
 	background-color: #A6A6CC; 
 	color: #000000; 
+	margin: 0px;
+	padding: 0px;
 }
 
 #pealdis{
+	padding-top: 10px; 
+	padding-bottom: 10px; 
 	text-align:center;
-/*	background-color: #000039;
+	background-color: #000039;
 	color: #CCCCD7;
-*/
+	border-bottom: 2px solid #000000;
 }
 
 #meldimine{
@@ -16,16 +20,19 @@ body{
 }
 
 #autendi {
+	text-align:right; 
 	position: fixed;
     top: 40px;
     right: 5px;
-	text-align:right; 
+	color: #CCCCD7;
 }
 
 .meldinupp{
-	float: right; 
-	background-color: #A6A6CC; 
-	color: #000000;
+	position: fixed;
+    top: 10px;
+    right: 5px;
+	background-color: #000039;
+	color: #CCCCD7;
 	border: none; 
 }
 
@@ -40,10 +47,37 @@ body{
 	float: left;
 	padding-right: 15px;
 	margin-right:   5px;
-	padding-left:   5px;
-/*	background-color: #000039;
+	padding-left:  10px;
+	background-color: #000039;
 	color: #CCCCD7;
-*/
+}
+
+#kylgriba a:link {
+    color: #CCCCD7;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 28px;
+}
+
+#kylgriba a:visited {
+    color: #B8B8C2;
+    font-weight: bold;
+    text-decoration: none;
+	line-height: 28px;
+}
+
+#kylgriba a:hover {
+    color: #E6E6EB;
+    font-weight: bold;
+    text-decoration: underline;
+	line-height: 28px;
+}
+
+#kylgriba a:active {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: underline;
+	line-height: 28px;
 }
 
 .otsikast{
@@ -63,6 +97,7 @@ body{
 #sisu{
 	width: 60%;
 	float: left;
+	padding: 5px; 
 }
 
 #jalus{
