@@ -1,7 +1,3 @@
-<!DOCTYPE HTML>
-
-<html>
-    
 <div id = "kylgriba">
 
 <form action="otsing.php">
@@ -11,13 +7,13 @@
 			   type="text" 
 			   name="otsitav"
 			   title="Sisesta otsitav tekst."
-		></input><!--
+		><!--
 	 --><input class="otsinupp" 
 			   type="image" 
 			   SRC="imgs/search.png" 
 			   alt="Mine!"
 			   name="otsi"
-			   title="Vajuta otsingu sooritamiseks siia!"></input>
+			   title="Vajuta otsingu sooritamiseks siia!">
     </p>
 </form> <p>
 
@@ -27,5 +23,3 @@
 <a href="kutse.php">SAADA KUTSE</a> <br>
 
 </div>
-
-</html>

@@ -1,7 +1,3 @@
-<!DOCTYPE HTML>
-
-<html>
-
 <?php require("header.php"); ?> 
 <?php require("sidebar.php"); ?>
 
@@ -10,6 +6,3 @@ Otsingutulemused!
 </div>
 
 <?php require("fin.php"); ?>     
-
-
-</html>

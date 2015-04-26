@@ -1,6 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-
 <div id="meldimine">
 <button 
 	class="meldinupp"
@@ -18,21 +15,19 @@
 		   name="kasutajanimi"
 		   class="sisenemiskast" 
 		   type="text" 
-	></input>
+	>
 	<br>
 	Salasõna: 
 	<input 
 		   name="salasona"
 		   class="sisenemiskast" 
 		   type="password" 
-	></input>
+	>
 	<br>
 	<input class="sisenemine" 
 		   type="submit" 
 		   value="Sisenen"
-	></input>
+	>
 </form>
 </div>
 </div>
-
-</html>
