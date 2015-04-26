@@ -4,7 +4,7 @@
     
 <div id = "jalus">
 	<hr>
-	Iris Merilo, Siim Neljandik, Andre Peedosaar 2015
+	Iris Merilo ja Siim Neljandik 2015
 </div>
 
 </body>

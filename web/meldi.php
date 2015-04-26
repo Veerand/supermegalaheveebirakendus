@@ -27,7 +27,7 @@
 		   type="password" 
 	></input>
 	<br>
-	<input class="" 
+	<input class="sisenemine" 
 		   type="submit" 
 		   value="Sisenen"
 	></input>

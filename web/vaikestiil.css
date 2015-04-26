@@ -22,9 +22,13 @@ body{
 #autendi {
 	text-align:right; 
 	position: fixed;
-    top: 40px;
-    right: 5px;
+    top: 108px;
+    right: 0px;
 	color: #CCCCD7;
+	padding: 5px; 
+	background-color: #000012;
+	border-radius: 5px;
+	border: 1px solid #151515;
 }
 
 .meldinupp{
@@ -37,10 +41,35 @@ body{
 }
 
 .sisenemiskast{
-	width:  100px;
+	width:  112px;
 	height: 20px;
-	margin: 0px;'
+	margin: 0px;
 	vertical-align: bottom;
+    border-radius: 5px;
+	background-color: #000000;
+	border: 1px solid #151515;
+	color: #999999;
+}
+
+.sisenemiskast:focus { 
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+.sisenemine{
+	width:  116px;
+	height: 20px;
+	margin-top: 2px; 
+    border-radius: 5px;
+	background: #555555;
+	background-image: -webkit-linear-gradient(top, #555555, #000000);
+	background-image: -moz-linear-gradient(top, #555555, #000000);
+	background-image: -ms-linear-gradient(top, #555555, #000000);
+	background-image: -o-linear-gradient(top, #555555, #000000);
+	background-image: linear-gradient(to bottom, #555555, #000000);
+	border: 1px solid #303030;
+	color: #CCCCD7;
 }
 
 #kylgriba{
@@ -82,9 +111,19 @@ body{
 
 .otsikast{
 	width:  100px;
-	height: 20px;
-	margin: 0px;'
+	height: 22px;
+	margin: 0px;
+    border-radius: 5px;
 	vertical-align: bottom;
+	background-color: #000000;
+	border: 1px solid #151515;
+	color: #999999;
+}
+
+.otsikast:focus { 
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
 }
 
 .otsinupp{ 
