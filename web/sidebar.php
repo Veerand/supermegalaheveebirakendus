@@ -1,3 +1,14 @@
+<div id = peitja>
+<button 
+	class="valikunupp"
+	title="" 
+	type="button"   
+	onclick= "if(document.getElementById('kylgriba') .style.display=='block') {document.getElementById('kylgriba') .style.display=''}
+     else {document.getElementById('kylgriba') .style.display='block'}">
+	<b>Valikud</b>
+</button> <br>
+</div>
+
 <div id = "kylgriba">
 
 <form action="otsing.php">
@@ -19,6 +30,7 @@
 
 <a href="index.php">PEALEHT</a> <br>
 <a href="soovitajad.php">SOOVITAJAD</a> <br>
+<a href="poliitikud.php">POLIITIKUD</a> <br>
 <a href="soovitus.php">SOOVITA</a> <br>
 <a href="kutse.php">SAADA KUTSE</a> <br>
 

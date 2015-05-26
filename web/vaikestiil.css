@@ -6,10 +6,15 @@ body{
 	padding: 0px;
 }
 
+table {
+   width: 100%;
+} 
+
 #pealdis{
 	padding-top: 10px; 
 	padding-bottom: 10px; 
 	text-align:center;
+	font-size: 100%;
 	background-color: #000039;
 	color: #CCCCD7;
 	border-bottom: 2px solid #000000;
@@ -22,7 +27,7 @@ body{
 #autendi {
 	text-align:right; 
 	position: fixed;
-    top: 108px;
+    top: 92px;
     right: 0px;
 	color: #CCCCD7;
 	padding: 5px; 
@@ -36,6 +41,14 @@ body{
     top: 10px;
     right: 5px;
 	background-color: #000039;
+	color: #CCCCD7;
+	border: none; 
+}
+
+.valikunupp{
+	background-color: #000039;
+	text-align: center;  
+	width: 100%;
 	color: #CCCCD7;
 	border: none; 
 }
@@ -72,9 +85,14 @@ body{
 	color: #CCCCD7;
 }
 
+#peitja{
+	display:none
+}
+
 #kylgriba{
+	display: block; 
 	float: left;
-	padding-right: 15px;
+	padding-right:  5px;
 	margin-right:   5px;
 	padding-left:  10px;
 	background-color: #000039;
@@ -111,7 +129,7 @@ body{
 
 .otsikast{
 	width:  100px;
-	height: 22px;
+	height: 26px;
 	margin: 0px;
     border-radius: 5px;
 	vertical-align: bottom;
@@ -143,3 +161,27 @@ body{
 	clear: left;
 	text-align:center;
 }        
+
+@media only screen and (max-width: 411px) {	
+	#autendi {
+		top: 165px;
+	}
+
+	#kylgriba {
+		display: none; 
+		text-align: center; 
+		width: 100%; 
+	}
+
+	#peitja{
+		background-color: #000039;
+		border-bottom: 2px solid #000000;
+		color: #CCCCD7;
+		display: block; 
+		float: top;
+		padding-bottom: 10px; 
+		padding-top: 10px; 
+	}
+
+}
+
